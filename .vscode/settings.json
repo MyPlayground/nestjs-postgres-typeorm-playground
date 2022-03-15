@@ -8,5 +8,13 @@
             "source.fixAll": true,
             "source.organizeImports": true
         },
-    }
+    },
+    // (GitLens) 行の上にホバーを表示する
+    "gitlens.hovers.currentLine.over": "line",
+    // (Copilot) を有効にする
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+    },
   }
